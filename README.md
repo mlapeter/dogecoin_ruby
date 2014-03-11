@@ -22,55 +22,55 @@ Currently no API key is needed for the dogechain.info API.
 
 To get started, create the Dogecoin client:
 
-  @doge = DogecoinRuby::Client.new
+    @doge = DogecoinRuby::Client.new
 
 The following actions are available:
 
-  @doge.address_balance(address)
+    @doge.address_balance(address)
   
 Get the amount ever received minus amount ever sent by a given address.
 
-  @doge.address_to_hash(address)
+    @doge.address_to_hash(address)
   
 Shows the public key hash encoded in an address.
 
-  @doge.check_address(address)
+    @doge.check_address(address)
   
 Checks an address for validity.
 
-  @doge.decode_address(address)
+    @doge.decode_address(address)
   
 Shows the version prefix and hash encoded in an address.
 
-  @doge.get_block_count
+    @doge.get_block_count
   
 Shows the current block number.
 
-  @doge.get_difficulty
+    @doge.get_difficulty
   
 Shows the last solved block's difficulty.
 
-  @doge.get_received_by_address(address)
+    @doge.get_received_by_address(address)
   
 Shows the amount ever received by a given address.
 
-  @doge.get_sent_by_address(address)
+    @doge.get_sent_by_address(address)
   
 Shows the amount ever sent from a given address.
 
-  @doge.hash_to_address(hash)
+    @doge.hash_to_address(hash)
   
 Shows the address of the given hash.
 
-  @doge.net_hash
+    @doge.net_hash
   
 Shows statistics about difficulty and network power.
 
-  @doge.total_bc
+    @doge.total_bc
   
 Shows the amount of currency ever mined.
 
-  @doge.transactions
+    @doge.transactions
   
 Shows the amount transactions of the last blocks.
 
@@ -79,5 +79,6 @@ Shows the amount transactions of the last blocks.
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+4. Please add tests!
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request
