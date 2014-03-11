@@ -1,6 +1,6 @@
 # DogecoinRuby
 
-Dogecoin-Ruby is a ruby wrapper for the Dogecoin API located at http://dogechain.info.  It's only intended for simple requests like checking a wallet balance, not creating wallets or storing or transacting any dogecoin.  Dogeclaimer: I'm learning this as I go, any help is greatly appreciated, and I make no guarantees!
+Dogecoin-Ruby is a ruby wrapper for the Dogecoin API located at http://dogechain.info.  It's only intended for simple requests like checking a wallet balance, not creating wallets or storing or transacting any dogecoin.  DOGECLAIMER: I'm learning this as I go, any help is greatly appreciated, and I make no guarantees!
 
 ## Installation
 
